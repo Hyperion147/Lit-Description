@@ -40,7 +40,13 @@ section {
 }
 
 .article-image img{
-    width: 400px;
+    width: 330px;
+}
+
+figcaption{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
 
 .article-image p{
@@ -58,16 +64,24 @@ section {
 }
 
 .author-description {
-    background: #e7f3fe;
+    background: #bfd8ef;
     padding: 20px;
     border-radius: 8px;
     margin: 20px;
 }
 
-.author-image {
-    width: 100px;
+.author-image{
+    display: flex;
+}
+
+.author-name{
+    padding-left: 35px;
+}
+
+.author-image img{
+    width: 150px;
     height: auto;
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 footer {
